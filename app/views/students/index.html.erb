@@ -1,0 +1,12 @@
+<%# app/views/students/index.html.erb %>
+
+<ul>
+<%  @students.each do |student|%>
+<!-- show information -->
+<li>
+<%= student %>
+<!-- his is a method , \n can only be inside a string so” #{student.name} \n” -->
+<!-- <br />, don’t need this is have <li> -->
+</li>
+<% end %>
+</ul>
