@@ -1,0 +1,7 @@
+<h1>List of students in this class:</h1>
+
+<ul>
+  <% @students.each do |s| %>
+    <li><%= "#{s.first_name} #{s.last_name}" %></li>
+  <% end %>
+</ul>
